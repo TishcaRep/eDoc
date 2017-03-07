@@ -1,4 +1,6 @@
-﻿Imports System
+﻿Imports System.Resources
+
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -10,12 +12,12 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("eDoctor")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("Microsoft")> 
+<Assembly: AssemblyCompany("TishcaDev")> 
 <Assembly: AssemblyProduct("eDoctor")> 
-<Assembly: AssemblyCopyright("Copyright © Microsoft 2017")> 
+<Assembly: AssemblyCopyright("Copyright © Tishca 2017")> 
 <Assembly: AssemblyTrademark("")> 
 
-<Assembly: ComVisible(False)>
+<Assembly: ComVisible(False)> 
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
 <Assembly: Guid("febc315b-4699-4b9d-a3fe-63f96496bcbc")> 
@@ -33,3 +35,5 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("1.0.0.0")> 
 <Assembly: AssemblyFileVersion("1.0.0.0")> 
+
+<Assembly: NeutralResourcesLanguageAttribute("es-MX")> 
